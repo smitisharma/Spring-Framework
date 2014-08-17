@@ -4,7 +4,7 @@
 <mapper namespace="com.hmkcode.spring.mybatis.mapper.Mapper">
     <resultMap type="com.hmkcode.spring.mybatis.vo.Person" id="Person">
         <id column="ID" property="id"  />
-        <result property="NAME" column="name"/>   
+        <result property="name" column="name"/>   
     </resultMap>
     
     <select id="selectAllPerson" resultMap="Person">
